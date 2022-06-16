@@ -137,4 +137,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\PethomeIcono.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\googlecount.png" />
+  </ItemGroup>
 </Project>

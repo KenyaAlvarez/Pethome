@@ -5,33 +5,33 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Margin="15,15,0,0">
             <Label Text="Quieres adoptar?"
                    TextColor="Black"
-                   FontAttributes="Bold"
-                   FontSize="25"
-                   VerticalOptions="Center" 
-                   HorizontalOptions="Center"/>
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"       
+                   FontSize="25"/>
 
-            <Grid HorizontalOptions="Start"  VerticalOptions="Start"  Padding="0,10,0,0">
+            <Grid HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"></RowDefinition>
                     <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
-                   
+
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition  Width="*" />
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition  Width="*"/>
                 </Grid.ColumnDefinitions>
 
                 <Frame x:Name="btnBigDogs"
-                       Grid.Row="1"
+                       Grid.Row="0"
                        Grid.Column="0"
                        CornerRadius="20"
                        HeightRequest="80"
                        WidthRequest="80"
                        Margin="20"
-                       HorizontalOptions="StartAndExpand"
+                       HorizontalOptions="Start"
                        BackgroundColor="#30F09B">
 
                     <Label Text="Perros Grandes"
@@ -43,8 +43,8 @@
                 </Frame>
 
                 <Frame x:Name="btnMediumDogs"
-                       Grid.Column="1"
-                       Grid.Row="1"
+                         Grid.Row="0"
+                        Grid.Column="1"
                        CornerRadius="20"
                        HeightRequest="80"
                        WidthRequest="80"
@@ -61,7 +61,7 @@
 
                 <Frame x:Name="btnSmallDogs"
                        Grid.Column="0"
-                       Grid.Row="2"
+                       Grid.Row="1"
                        CornerRadius="20"
                        HeightRequest="80"
                        WidthRequest="80"
@@ -78,7 +78,7 @@
 
                 <Frame x:Name="btnCats"
                        Grid.Column="1"
-                       Grid.Row="2"
+                       Grid.Row="1"
                        CornerRadius="20"
                        HeightRequest="80"
                        WidthRequest="80"
