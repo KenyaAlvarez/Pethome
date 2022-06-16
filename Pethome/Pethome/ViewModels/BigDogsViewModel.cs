@@ -1,5 +1,4 @@
 ﻿using Pethome.Views;
-using Pethome.Views.Menu;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,35 +8,35 @@ using Xamarin.Forms;
 
 namespace Pethome.ViewModels
 {
-    public class MenuViewModel : BaseViewModel
+    public class BigDogsViewModel : BaseViewModel
     {
         #region VARIABLES
-        
+       
         #endregion
 
         #region CONSTRUCTOR
-        public MenuViewModel(INavigation navigation)
+        public BigDogsViewModel(INavigation navigation)
         {
             Navigation = navigation;
         }
         #endregion
 
         #region OBJETOS
-       
+        
         #endregion
 
         #region PROCESOS
-        public async Task BigdogsCommand()
+        public async Task LoginCommand()
         {
-            await Navigation.PushAsync(new BigDogsPage());
+            await Navigation.PushAsync(new MenuPage());
         }
-
       
+
         #endregion
 
         #region COMANDOS
-        public ICommand Bigdogscommand => new Command(async () => await BigdogsCommand());
-        
+        public ICommand logincommand => new Command(async () => await LoginCommand());
+       
         #endregion
     }
 }
