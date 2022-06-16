@@ -45,10 +45,14 @@
                         Command="{Binding logincommand}"/>
                 
                 <Label Grid.Row="5" Text="Olvidaste tu contraseña?" TextColor="Black" HorizontalTextAlignment="End" FontSize="15"/>
-                <Label Grid.Row="6" Text="O inicia seson con" TextColor="#D9D9D9" FontSize="15" HorizontalTextAlignment="Center"/>
-                <Image Grid.Row="7" Source="googlecount.png" Aspect="AspectFit" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                <Label Grid.Row="7" Text="O inicia seson con" TextColor="#bababa" FontSize="15" HorizontalTextAlignment="Center"/>
+                <Image Grid.Row="8" Source="googlecount.png" Aspect="AspectFit" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
 
-                <Label Grid.Row="8" Text="No tienes una cuenta?, puedes registrarte aqui" TextColor="#D9D9D9" FontSize="15"/>
+                <Label Grid.Row="8" Text="No tienes una cuenta?, puedes registrarte aqui" TextColor="#D9D9D9" FontSize="15" HorizontalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding SignUpcommand}"/>
+                    </Label.GestureRecognizers>
+                </Label>
             </StackLayout>
         </Grid>
     </ContentPage.Content>

@@ -11,7 +11,7 @@ namespace Pethome.ViewModels
     public class LoginViewModel :  BaseViewModel
     {
         #region VARIABLES
-        string _Usuario;
+        string _User;
         string _Password;
         #endregion
 
@@ -23,15 +23,21 @@ namespace Pethome.ViewModels
         #endregion
 
         #region OBJETOS
-        public string Texto
+        public string User
         {
-            get { return _Usuario; }
-            set { SetValue(ref _Usuario, value); }
+            get { return _User; }
+            set { SetValue(ref _User, value); }
         }
         public string Password
         {
             get { return _Password; }
             set { SetValue(ref _Password, value); }
+        }
+
+        public string Register
+        {
+            get { return _Register; }
+            set { SetValue(ref _Register, value); }
         }
         #endregion
 
@@ -40,16 +46,16 @@ namespace Pethome.ViewModels
         {
             await Navigation.PushAsync(new MenuPage());
         }
-
-        public void ProcesoSimple()
+        public async Task SignUpCommand()
         {
-
+            await Navigation.PushAsync(new SignUpPage());
         }
+
         #endregion
 
         #region COMANDOS
         public ICommand logincommand => new Command(async () => await LoginCommand());
-        public ICommand ProcesoSimplecommand => new Command(ProcesoSimple);
+        public ICommand SignUpcommand => new Command(async () => await SignUpCommand());
         #endregion
     }
 }

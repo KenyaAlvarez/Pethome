@@ -1158,3 +1158,4 @@ E:\external\Pethome\Pethome\Pethome.Android\obj\Debug\110\stamp\_ConvertResource
 E:\external\Pethome\Pethome\Pethome.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 E:\external\Pethome\Pethome\Pethome.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 E:\external\Pethome\Pethome\Pethome.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+E:\external\Pethome\Pethome\Pethome.Android\obj\Debug\110\res\drawable\googlecount.png
