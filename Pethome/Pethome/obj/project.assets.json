@@ -541,11 +541,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kenya\\source\\repos\\Pethome\\Pethome\\Pethome\\Pethome.csproj",
+      "projectUniqueName": "E:\\external\\Pethome\\Pethome\\Pethome\\Pethome.csproj",
       "projectName": "Pethome",
-      "projectPath": "C:\\Users\\kenya\\source\\repos\\Pethome\\Pethome\\Pethome\\Pethome.csproj",
+      "projectPath": "E:\\external\\Pethome\\Pethome\\Pethome\\Pethome.csproj",
       "packagesPath": "C:\\Users\\kenya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kenya\\source\\repos\\Pethome\\Pethome\\Pethome\\obj\\",
+      "outputPath": "E:\\external\\Pethome\\Pethome\\Pethome\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

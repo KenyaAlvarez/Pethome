@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BadgbaVBwinE5KuE2BCa3oo9vSHys+Y+vNkW3pu1fUenZ8/7LpFbp/vwtm1qnCiJcwuzVsMbp29nhdkXIF1eZg==",
+  "dgSpecHash": "GHUlcy3F3H8ueJHnZUjWUpnoXqqL1skuv0apeNZlknx3wuoaeYxiSu+kPucVTnjNwOFgDnvEsRIevn12SGviug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kenya\\source\\repos\\Pethome\\Pethome\\Pethome.Android\\Pethome.Android.csproj",
+  "projectFilePath": "E:\\external\\Pethome\\Pethome\\Pethome.Android\\Pethome.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kenya\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",

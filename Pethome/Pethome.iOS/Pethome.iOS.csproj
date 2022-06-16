@@ -135,6 +135,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\play_store_512.png" />
+    <BundleResource Include="Resources\PethomeIcono.png" />
   </ItemGroup>
 </Project>

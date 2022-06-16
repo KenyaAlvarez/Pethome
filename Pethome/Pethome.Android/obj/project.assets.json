@@ -2149,11 +2149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kenya\\source\\repos\\Pethome\\Pethome\\Pethome.Android\\Pethome.Android.csproj",
+      "projectUniqueName": "E:\\external\\Pethome\\Pethome\\Pethome.Android\\Pethome.Android.csproj",
       "projectName": "Pethome.Android",
-      "projectPath": "C:\\Users\\kenya\\source\\repos\\Pethome\\Pethome\\Pethome.Android\\Pethome.Android.csproj",
+      "projectPath": "E:\\external\\Pethome\\Pethome\\Pethome.Android\\Pethome.Android.csproj",
       "packagesPath": "C:\\Users\\kenya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kenya\\source\\repos\\Pethome\\Pethome\\Pethome.Android\\obj\\",
+      "outputPath": "E:\\external\\Pethome\\Pethome\\Pethome.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2176,8 +2176,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\kenya\\source\\repos\\Pethome\\Pethome\\Pethome\\Pethome.csproj": {
-              "projectPath": "C:\\Users\\kenya\\source\\repos\\Pethome\\Pethome\\Pethome\\Pethome.csproj"
+            "E:\\external\\Pethome\\Pethome\\Pethome\\Pethome.csproj": {
+              "projectPath": "E:\\external\\Pethome\\Pethome\\Pethome\\Pethome.csproj"
             }
           }
         }
