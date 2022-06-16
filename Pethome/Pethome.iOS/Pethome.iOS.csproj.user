@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SelectedDevice>Kenya’s iPhone</SelectedDevice>
+    <ActiveDebugProfile>Kenya’s iPhone</ActiveDebugProfile>
+    <DeveloperId>kenyakate.15%40hotmail.com</DeveloperId>
+    <DevelopmentTeamId>V98ZP3R9RD</DevelopmentTeamId>
+    <SelectedPlatformGroup>LocalDevice</SelectedPlatformGroup>
+  </PropertyGroup>
+</Project>

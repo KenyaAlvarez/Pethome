@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pethome.Views.LoginPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="20" Padding="20,50,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackLayout Margin="0,20,0,0">
+                <Image Grid.Row="0" Margin="0,30" Source="PethomeIcono.png" Aspect="AspectFill" HeightRequest="80" WidthRequest="80"/>
+                <Entry Grid.Row="1" 
+                       Placeholder="Correo electronico" 
+                       Text="{Binding Usuario}"
+                       PlaceholderColor="#bababa" 
+                       FontSize="16" 
+                       Keyboard="Email"
+                       BackgroundColor="#EDEDED"/>
+                
+                <Entry Grid.Row="2"
+                       Placeholder="Password" 
+                       Text="{Binding Password}"
+                       IsPassword="True"
+                       PlaceholderColor="#bababa" 
+                       FontSize="16"      
+                       BackgroundColor="#EDEDED"/>
+                
+                <Button Text="LogIn"
+                        BackgroundColor="#3CB03A" 
+                        TextColor="White" 
+                        HeightRequest="50" 
+                        Grid.Row="3"
+                        BorderRadius="15"
+                        Command="{Binding logincommand}"/>
+                
+                <Label Grid.Row="5" Text="Olvidaste tu contraseña?" TextColor="Black" HorizontalTextAlignment="End" FontSize="15"/>
+                <Label Grid.Row="6" Text="O" TextColor="#3CB03A" HorizontalOptions="Center" FontSize="25" Padding="20"/>
+                
+                <Button Text="Registrate"
+                        BackgroundColor="#3CB03A" 
+                        TextColor="White"
+                        Grid.Row="7"
+                        BorderRadius="15"/>
+                
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pethome.Views.MenuPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Quieres adoptar?"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   FontSize="25"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"/>
+
+            <Grid HorizontalOptions="Start"  VerticalOptions="Start"  Padding="0,10,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                   
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition  Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Frame x:Name="btnBigDogs"
+                       Grid.Row="1"
+                       Grid.Column="0"
+                       CornerRadius="20"
+                       HeightRequest="80"
+                       WidthRequest="80"
+                       Margin="20"
+                       HorizontalOptions="StartAndExpand"
+                       BackgroundColor="#30F09B">
+
+                    <Label Text="Perros Grandes"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       TextColor="Black"/>
+
+                </Frame>
+
+                <Frame x:Name="btnMediumDogs"
+                       Grid.Column="1"
+                       Grid.Row="1"
+                       CornerRadius="20"
+                       HeightRequest="80"
+                       WidthRequest="80"
+                       Margin="20"
+                       HorizontalOptions="StartAndExpand"
+                       BackgroundColor="#36C6D9">
+
+                    <Label Text="Perros medianos"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       TextColor="Black"/>
+                </Frame>
+
+                <Frame x:Name="btnSmallDogs"
+                       Grid.Column="0"
+                       Grid.Row="2"
+                       CornerRadius="20"
+                       HeightRequest="80"
+                       WidthRequest="80"
+                       Margin="20"
+                       HorizontalOptions="StartAndExpand"
+                       BackgroundColor="#3074F0">
+
+                    <Label Text="Perros chicos"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       TextColor="Black"/>
+                </Frame>
+
+                <Frame x:Name="btnCats"
+                       Grid.Column="1"
+                       Grid.Row="2"
+                       CornerRadius="20"
+                       HeightRequest="80"
+                       WidthRequest="80"
+                       Margin="20"
+                       HorizontalOptions="StartAndExpand"
+                       BackgroundColor="#4F2EE6">
+
+                    <Label Text="Perros chicos"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       TextColor="Black"/>
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\bin\Debug\netstandard2.0\Pethome.deps.json
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\bin\Debug\netstandard2.0\Pethome.dll
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\bin\Debug\netstandard2.0\Pethome.pdb
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\Pethome.csproj.AssemblyReference.cache
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\Pethome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\Pethome.AssemblyInfoInputs.cache
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\Pethome.AssemblyInfo.cs
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\Pethome.csproj.CoreCompileInputs.cache
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\Pethome.dll
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\ref\Pethome.dll
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\Pethome.pdb
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\refint\Pethome.dll
+C:\Users\kenya\source\repos\Pethome\Pethome\Pethome\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
