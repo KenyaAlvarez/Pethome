@@ -52,3 +52,5 @@ Mkfile.old
 dkms.conf
 /Pethome/Pethome.iOS/obj
 /Pethome/Pethome.iOS/bin
+/Pethome/Pethome/bin
+/Pethome/Pethome/obj
