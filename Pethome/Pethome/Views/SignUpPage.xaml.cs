@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pethome.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace Pethome.Views
         public SignUpPage()
         {
             InitializeComponent();
+            BindingContext = new SignUpViewModel(Navigation);
         }
     }
 }

@@ -48,15 +48,15 @@ namespace Pethome.ViewModels
         #endregion
 
         #region PROCESOS
-        public async Task RegisterCommand()
+        public async Task registerCommand()
         {
-            await Navigation.PushAsync(new MenuPage());
+            await Navigation.PushAsync(new LoginPage());
         }
 
         #endregion
 
         #region COMANDOS
-        public ICommand Registercommand => new Command(async () => await RegisterCommand());
+        public ICommand registercommand => new Command(async () => await registerCommand());
         #endregion
     }
 }

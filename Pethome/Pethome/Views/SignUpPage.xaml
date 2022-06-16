@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:Pethome.ViewModels" x:DataType="viewmodels:SignUpViewModel"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="Pethome.Views.SignUpPage"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="White">
@@ -23,10 +23,10 @@
 
             <Label Grid.Row="2" Grid.Column="0" Text="Nombre(s)" TextColor="Black" FontSize="15"/>
             <Entry Grid.Row="3" Grid.Column="0" HeightRequest="40" BackgroundColor="#EDEDED" TextColor="#747678"/>
-            <!-- Last name-->
+
             <Label Grid.Row="2" Grid.Column="1" Text="Apellidos" TextColor="Black" FontSize="15"/>
             <Entry Grid.Row="3" Grid.Column="1" HeightRequest="40" BackgroundColor="#EDEDED" TextColor="#747678"/>
-            <!-- Email-->
+  
             <Label Grid.Row="4" Grid.Column="0" Text="Email" TextColor="Black" FontSize="15" />
             <Entry Grid.Row="5" 
                    Grid.Column="0" 
@@ -36,7 +36,7 @@
                    BackgroundColor="#EDEDED"
                    TextColor="#747678"/>
             
-            <!-- Password-->
+        
             <Label Grid.Row="6" Grid.Column="0" Text="Contraseña" TextColor="Black" FontSize="15" />
             <Entry Grid.Row="7" 
                    Grid.Column="0" 
@@ -54,7 +54,7 @@
                    HeightRequest="40" 
                    BackgroundColor="#EDEDED"
                    TextColor="#747678"/>
-            <!-- Phone number-->
+            
             <Label Grid.Row="10" Grid.Column="0" Text="Numero" TextColor="Black" FontSize="15" />
             <Entry Grid.Row="10" 
                    Grid.Column="1" 
@@ -72,7 +72,7 @@
                     FontSize="15" 
                     FontAttributes="Bold" 
                     HorizontalOptions="FillAndExpand"
-                    Command="{Binding Registercommand}"/>
+                    Command="{Binding registercommand}"/>
 
 
         </Grid>

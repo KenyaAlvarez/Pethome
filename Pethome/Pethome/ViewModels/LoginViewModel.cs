@@ -34,11 +34,6 @@ namespace Pethome.ViewModels
             set { SetValue(ref _Password, value); }
         }
 
-        public string Register
-        {
-            get { return _Register; }
-            set { SetValue(ref _Register, value); }
-        }
         #endregion
 
         #region PROCESOS
