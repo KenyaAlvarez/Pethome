@@ -16,7 +16,7 @@ namespace Pethome.Views
         public MenuPage()
         {
             InitializeComponent();
-            BindingContext = new LoginViewModel(Navigation);
+            BindingContext = new MenuViewModel(Navigation);
         }
     }
 }
