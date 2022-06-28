@@ -1,4 +1,5 @@
 ﻿using Pethome.Views;
+using Pethome.Views.Menu;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -39,7 +40,7 @@ namespace Pethome.ViewModels
         #region PROCESOS
         public async Task LoginCommand()
         {
-            await Navigation.PushAsync(new MenuPage());
+            await Navigation.PushAsync(new MenuTabbedPage());
         }
         public async Task SignUpCommand()
         {

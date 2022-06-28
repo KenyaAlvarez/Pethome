@@ -3,15 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Pethome.Views.Menu"
              x:Class="Pethome.Views.Menu.MenuTabbedPage"
+             NavigationPage.HasNavigationBar="False"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              android:TabbedPage.ToolbarPlacement="Bottom"
              android:TabbedPage.BarSelectedItemColor="#3CB03A"
-             android:TabbedPage.BarItemColor="#8da2b9">
+             android:TabbedPage.BarItemColor="#8da2b9"
+             BackgroundColor="White">
 
     <TabbedPage.Children>
   <!--Pages can be added as references or inline-->
-  <ContentPage Title="Tab 1" />
-  <ContentPage Title="Tab 2" />
-  <ContentPage Title="Tab 3" />
+  <local:HomePage Title="Inicio" />
+  <local:SearchPage Title="Buscar" />
+  <local:AccountPage Title="Cuenta" />
     </TabbedPage.Children>
 </TabbedPage>

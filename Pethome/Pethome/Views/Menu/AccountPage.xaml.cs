@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Pethome.Views.Menu
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HomePage : ContentPage
+    public partial class AccountPage : ContentPage
     {
-        public HomePage()
+        public AccountPage()
         {
             InitializeComponent();
         }
